@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="/_css/estilo.css"/>
+  <title>PHP | formulario html</title>
+  <style>
+    h3{color: white;}
+  </style>
+</head>
+<body>
+<div>
+<center>
+    <font color="white">
+    <print><h3>Por favor nos diga seu nome, idade e gênero.</h3></print>
+  <form method="get" action="8ex1.php"> 
+        nome: <input type="text" name="nome"/>
+      <br/>
+        Ano de nascimento: <input type="number"  name="idade"/>
+
+        <fieldset><legend>Sexo</legend>
+          <input type="radio" name="sexo" id="masc" value="Homem" checked/>
+          <label for="masc">Masculino</label><br/>
+          <input type="radio" name="sexo" id="fem" value="mulher"/>
+          <label for="fem">feminino</label><br/>  
+        </fieldset><br/>
+      <input type="submit" value="Enviar"/>  
+        
+    </form>
+    </font>
+    </center>
+</div>
+</body>
+</html>
